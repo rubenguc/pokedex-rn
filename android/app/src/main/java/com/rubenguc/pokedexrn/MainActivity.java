@@ -1,4 +1,4 @@
-package com.pokedexrn;
+package com.rubenguc.pokedexrn;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

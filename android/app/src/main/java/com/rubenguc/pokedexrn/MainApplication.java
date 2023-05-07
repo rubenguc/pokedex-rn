@@ -1,4 +1,4 @@
-package com.pokedexrn;
+package com.rubenguc.pokedexrn;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
