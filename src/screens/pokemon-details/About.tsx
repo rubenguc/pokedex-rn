@@ -19,11 +19,12 @@ const Row: FC<RowProps> = ({ label, content }) => {
       <Text
         sx={{
           width: "25%",
+          color: "#444",
         }}
       >
         {label}
       </Text>
-      <Text>{content}</Text>
+      <Text sx={{ color: "#444" }}>{content}</Text>
     </Box>
   );
 };

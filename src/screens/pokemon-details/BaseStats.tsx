@@ -21,8 +21,8 @@ const Stat: FC<StatProps> = ({ label, value, max }) => {
         alignItems: "center",
       }}
     >
-      <Text sx={{ width: "20%" }}>{label}</Text>
-      <Text sx={{ width: "10%" }}>{value}</Text>
+      <Text sx={{ width: "20%", color: "#444" }}>{label}</Text>
+      <Text sx={{ width: "10%", color: "#444" }}>{value}</Text>
       <Box
         sx={{
           height: 3,

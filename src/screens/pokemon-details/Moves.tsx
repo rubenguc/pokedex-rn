@@ -38,6 +38,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
           <Text
             sx={{
               fontWeight: "bold",
+              color: "#444",
             }}
           >
             name
@@ -52,6 +53,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
             sx={{
               textAlign: "center",
               fontWeight: "bold",
+              color: "#444",
             }}
           >
             Type
@@ -66,6 +68,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
             sx={{
               textAlign: "center",
               fontWeight: "bold",
+              color: "#444",
             }}
           >
             Power
@@ -80,6 +83,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
             sx={{
               textAlign: "center",
               fontWeight: "bold",
+              color: "#444",
             }}
           >
             Acc
@@ -94,6 +98,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
             sx={{
               textAlign: "center",
               fontWeight: "bold",
+              color: "#444",
             }}
           >
             PP
@@ -118,7 +123,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
                 flex: 1,
               }}
             >
-              <Text>{move?.name}</Text>
+              <Text sx={{ color: "#444" }}>{move?.name}</Text>
             </Box>
             <Box
               sx={{
@@ -145,6 +150,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
               <Text
                 sx={{
                   textAlign: "center",
+                  color: "#444",
                 }}
               >
                 {move?.power}
@@ -158,6 +164,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
               <Text
                 sx={{
                   textAlign: "center",
+                  color: "#444",
                 }}
               >
                 {move?.accuracy}
@@ -171,6 +178,7 @@ export const Moves: FC<MovesProps> = ({ moves }) => {
               <Text
                 sx={{
                   textAlign: "center",
+                  color: "#444",
                 }}
               >
                 {move?.pp}

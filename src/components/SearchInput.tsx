@@ -55,9 +55,11 @@ export const SearchInput: FC<SearchInputProps> = ({
         onChangeText={onInputChange}
         value={value}
         placeholder="Search pokemon"
+        placeholderTextColor="#444"
         sx={{
           flex: 1,
           height: 37,
+          color: "#444",
         }}
       />
     </Box>

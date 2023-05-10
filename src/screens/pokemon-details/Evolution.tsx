@@ -50,7 +50,6 @@ export const Evolution: FC<EvolutionProps> = ({ pokemonEvolution }) => {
         py: 2,
       }}
     >
-      <Text>Evolution chart</Text>
       <Box
         sx={{
           display: "flex",
@@ -107,7 +106,7 @@ export const Evolution: FC<EvolutionProps> = ({ pokemonEvolution }) => {
                         }}
                       />
                     )}
-                    <Text>{row?.from}</Text>
+                    <Text sx={{ color: "#444" }}>{row?.from}</Text>
                   </Box>
 
                   <Box
@@ -119,7 +118,7 @@ export const Evolution: FC<EvolutionProps> = ({ pokemonEvolution }) => {
                   >
                     <Icon name="long-arrow-right" size={30} color="#ddda" />
                     {row?.requirements?.map((r) => (
-                      <Text key={r} sx={{ fontSize: 10 }}>
+                      <Text key={r} sx={{ fontSize: 10, color: "#444" }}>
                         {r}
                       </Text>
                     ))}
@@ -152,7 +151,7 @@ export const Evolution: FC<EvolutionProps> = ({ pokemonEvolution }) => {
                       />
                     )}
 
-                    <Text>{row?.to}</Text>
+                    <Text sx={{ color: "#444" }}>{row?.to}</Text>
                   </Box>
                 </Box>
               ))}
